@@ -1,5 +1,6 @@
 ﻿using MAUI_Template.Broker.User;
 using MAUI_Template.Services;
+using MAUI_Template.View;
 
 namespace MAUI_Template.ViewModel;
 
@@ -30,7 +31,7 @@ public partial class LoginViewModel : BaseViewModel
 
     #region COMMANDS
     [RelayCommand]
-    private async Task Login()
+    private async Task LoginAsync()
     {
         if (IsBusy)
             return;
@@ -61,7 +62,7 @@ public partial class LoginViewModel : BaseViewModel
             Debug.WriteLine("Logged");
             await Shell.Current.DisplayAlert("Success!", $"{loginResult}", "OK");
 
-            //TODO: Navigate to another Activity
+            await Shell.Current.GoToAsync(nameof(HomePage));
         }
         catch (Exception ex)
         {
@@ -76,7 +77,7 @@ public partial class LoginViewModel : BaseViewModel
 
 
     [RelayCommand]
-    private async Task CreateUser()
+    private async Task CreateUserAsync()
     {
         if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
         {

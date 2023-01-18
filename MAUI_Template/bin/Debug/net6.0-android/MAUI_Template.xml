@@ -160,13 +160,13 @@
             <summary>The backing field for <see cref="P:MAUI_Template.ViewModel.LoginViewModel.LoginCommand"/>.</summary>
         </member>
         <member name="P:MAUI_Template.ViewModel.LoginViewModel.LoginCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.Login"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.LoginAsync"/>.</summary>
         </member>
         <member name="F:MAUI_Template.ViewModel.LoginViewModel.createUserCommand">
             <summary>The backing field for <see cref="P:MAUI_Template.ViewModel.LoginViewModel.CreateUserCommand"/>.</summary>
         </member>
         <member name="P:MAUI_Template.ViewModel.LoginViewModel.CreateUserCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.CreateUser"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.CreateUserAsync"/>.</summary>
         </member>
     </members>
 </doc>

@@ -16,10 +16,27 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
 
-		builder.Services.AddTransient<LoginPage>();
-		builder.Services.AddTransient<LoginViewModel>();
-		builder.Services.AddSingleton<LoginService>();
+        #region PAGES_REGISTRY
+        /*
+         * En el registro se puede usar:
+         * 'AddSingleton' : Para que cada que se instancie, siempre retorne la misma.
+         * 'AddTransient' : Se creará una diferente cada vez que se instancie (Ejemplo: Una página que muestra los detalles de un producto que viene de una página con una lista de productos, cada una de esas páginas será diferente para cada producto).
+         */
 
-		return builder.Build();
+        // Login
+        builder.Services.AddTransient<LoginPage>();
+        builder.Services.AddTransient<LoginViewModel>();
+        builder.Services.AddSingleton<LoginService>();
+
+        // Home
+        builder.Services.AddSingleton<HomePage>();
+        builder.Services.AddSingleton<HomeViewModel>();
+
+        // Collection
+        builder.Services.AddSingleton<CollectionPage>();
+        builder.Services.AddSingleton<CollectionViewModel>();
+        #endregion
+
+        return builder.Build();
 	}
 }
