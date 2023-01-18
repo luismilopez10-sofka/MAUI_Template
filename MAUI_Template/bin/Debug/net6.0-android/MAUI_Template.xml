@@ -1,0 +1,172 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MAUI_Template</name>
+    </assembly>
+    <members>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.CreateTable``1">
+            <summary>
+                Executes a "create table if not exists" on the database. It also creates any
+                specified indexes on the columns of the table. It uses a schema automatically
+                generated from the specified type. You can later access this schema by calling
+                GetMapping.
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of object.
+            </typeparam>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.GetAll``1">
+            <summary>
+                Returns a queryable interface to the table represented by the given type.
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of object.
+            </typeparam>
+            <returns>
+                A queryable object that is able to translate Where, OrderBy, and Take queries
+                into native SQL.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.Find``1(System.Object)">
+            <summary>
+                Attempts to retrieve an object with the given primary key from the table associated
+                with the specified type. Use of this method requires that the given type have
+                a designated PrimaryKey (using the PrimaryKeyAttribute).
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of object.
+            </typeparam>
+            <param name="primaryKey">
+                primaryKey:
+                    The primary key.
+            </param>
+            <returns>
+                The object with the given primary key or null if the object is not found.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.Filter``1(System.String,System.String)">
+            <summary>
+            Gets the filtered data from the table with the given condition
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="table"></param>
+            <param name="condition"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.Save``1(``0)">
+            <summary>
+                create the table of the given type and inserts the given object (and updates its auto incremented primary key if it
+                has one). The return value is the number of rows added to the table.
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of object.
+            </typeparam>
+            <param name="item">
+                obj:
+                    The object to insert.
+            </param>
+            <returns>
+                The number of rows added to the table.
+            </returns>     
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.Update``1(``0)">
+            <summary>
+                Updates all of the columns of a table using the specified object except for its
+                primary key. The object is required to have a primary key.
+            </summary>
+            <param name="item">
+                obj:
+                    The object to update. It must have a primary key designated using the PrimaryKeyAttribute.
+            </param>
+            <returns>
+                The number of rows updated.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.UpdateList``1(System.Collections.Generic.List{``0})">
+            <summary>
+                Updates all of the columns of a table using the specified object except for its
+                primary key. The object is required to have a primary key.
+            </summary>
+            <param name="item">
+                obj:
+                    The object to update. It must have a primary key designated using the PrimaryKeyAttribute.
+            </param>
+            <returns>
+                The number of rows updated.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.Delete``1(``0)">
+            <summary>
+                Deletes the given object from the database using its primary key.
+            </summary>
+            <param name="item">
+                objectToDelete:
+                    The object to delete. It must have a primary key designated using the PrimaryKeyAttribute.
+            </param>
+            <returns>
+                The number of rows deleted.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.DeleteAll``1">
+            <summary>
+                Deletes all the objects from the specified table. WARNING WARNING: Let me repeat.
+                It deletes ALL the objects from the specified table. Do you really want to do
+                that?
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of objects to delete.
+            </typeparam>
+            <returns>
+                The number of objects deleted.
+            </returns>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.DeleteList``1(System.Collections.Generic.List{``0})">
+            <summary>
+                Delete a list of objects gieven to the mehod
+            </summary>
+            <param name="itemsToDelete">
+                obj:
+                   the list of objects to delete
+            </param>
+        </member>
+        <member name="M:MAUI_Template.SQLite.SQLiteRepository.DropTable``1">
+            <summary>
+                Executes a "drop table" on the database. This is non-recoverable.
+            </summary>
+            <typeparam name="T">
+                T:
+                    The type of object.
+            </typeparam>
+            <returns></returns>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:MAUI_Template.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:MAUI_Template.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.LoginViewModel.Username">
+            <inheritdoc cref="F:MAUI_Template.ViewModel.LoginViewModel.username"/>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.LoginViewModel.Password">
+            <inheritdoc cref="F:MAUI_Template.ViewModel.LoginViewModel.password"/>
+        </member>
+        <member name="F:MAUI_Template.ViewModel.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:MAUI_Template.ViewModel.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="F:MAUI_Template.ViewModel.LoginViewModel.createUserCommand">
+            <summary>The backing field for <see cref="P:MAUI_Template.ViewModel.LoginViewModel.CreateUserCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.LoginViewModel.CreateUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.LoginViewModel.CreateUser"/>.</summary>
+        </member>
+    </members>
+</doc>

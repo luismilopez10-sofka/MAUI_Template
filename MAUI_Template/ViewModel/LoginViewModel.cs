@@ -1,0 +1,93 @@
+﻿using MAUI_Template.Broker.User;
+using MAUI_Template.Services;
+
+namespace MAUI_Template.ViewModel;
+
+public partial class LoginViewModel : BaseViewModel
+{
+    #region VARIABLES
+    private ISQLiteRepository _sqliteRepository;
+    private IBrkUser _brkUser;
+    LoginService _loginService;
+    #endregion
+
+    #region PROPERTIES
+    [ObservableProperty]
+    private string username;
+    [ObservableProperty]
+    private string password;
+    #endregion
+
+    #region CONSTRUCTORS
+    public LoginViewModel(LoginService loginService)
+    {
+        Title = "Login";
+        _sqliteRepository = new SQLiteRepository();
+        _brkUser = new BrkUser();
+        _loginService = loginService;
+    }
+    #endregion
+
+    #region COMMANDS
+    [RelayCommand]
+    private async Task Login()
+    {
+        if (IsBusy)
+            return;
+
+        if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
+        {
+            await Shell.Current.DisplayAlert("Empty Fields", "Please enter all the fields.", "OK");
+            return;
+        }
+
+        try
+        {
+            IsBusy = true;
+
+            MdlUser objMdlUser = new(Username, Password);
+            string loginResult = await _brkUser.Login(objMdlUser);
+
+            if (loginResult != BrkUser.responses[200].ToString())
+            {
+                await Shell.Current.DisplayAlert("Login Error", $"{loginResult}", "OK");
+                return;
+            }
+
+
+            objMdlUser.Logged = true;
+            await _sqliteRepository.Update(objMdlUser);
+
+            Debug.WriteLine("Logged");
+            await Shell.Current.DisplayAlert("Success!", $"{loginResult}", "OK");
+
+            //TODO: Navigate to another Activity
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex);
+            await Shell.Current.DisplayAlert("Error!", $"Unable to login: {ex.Message}", "OK");
+        }
+        finally
+        {
+            IsBusy = false;
+        }
+    }
+
+
+    [RelayCommand]
+    private async Task CreateUser()
+    {
+        if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
+        {
+            await Shell.Current.DisplayAlert("Empty Fields", "Please fill all the fields.", "OK");
+            return;
+        }
+
+        MdlUser objMdlUser = new(Username, Password);
+
+        string creatingResult = await _brkUser.CreateUser(objMdlUser);
+        await Shell.Current.DisplayAlert("Info", creatingResult, "OK");
+    }
+    #endregion
+}

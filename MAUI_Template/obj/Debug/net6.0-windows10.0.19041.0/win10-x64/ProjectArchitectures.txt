@@ -1,0 +1,1 @@
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\MAUI_Template.csproj;x64
