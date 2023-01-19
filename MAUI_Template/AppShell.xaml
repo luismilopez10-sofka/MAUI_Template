@@ -35,7 +35,7 @@
     </Shell.Resources>
     
     <ShellContent
-        Shell.NavBarIsVisible="True"
+        Shell.NavBarIsVisible="False"
         Title="MAUI Template"
         ContentTemplate="{DataTemplate local:LoginPage}"
         Route="LoginPage" />
