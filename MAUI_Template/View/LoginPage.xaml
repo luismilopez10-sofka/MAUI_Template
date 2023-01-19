@@ -5,37 +5,45 @@
              xmlns:viewmodel="clr-namespace:MAUI_Template.ViewModel"
              x:DataType="viewmodel:LoginViewModel"
              Title="{Binding Title}">
-    <Grid>
-        <VerticalStackLayout Padding="40"
-                             VerticalOptions="Center"
-                             Spacing="20">
-            <Image Source="dotnet_bot.svg"
-                   BackgroundColor="Transparent"
-                   HeightRequest="140" />
-            <Entry Placeholder="Username"
-                   FontSize="18"
-                   Text="{Binding Username}" />
-            <Entry Placeholder="Password"
-                   FontSize="18"
-                   IsPassword="False"
-                   Text="{Binding Password}" />
-            <Button Text="LOGIN"
-                    FontSize="16"
-                    WidthRequest="150"
-                    Margin="0,30,0,0"
-                    Command="{Binding LoginCommand}"
-                    IsEnabled="{Binding IsNotBusy}" />
-            <Button Text="REGISTER"
-                    FontSize="16"
-                    WidthRequest="150"
-                    Margin="0,0,0,0"
-                    Command="{Binding CreateUserCommand}"
-                    IsEnabled="{Binding IsNotBusy}" />
-        </VerticalStackLayout>
+    <Grid Padding="30,0"
+          BackgroundColor="#E0E0E0">
+        <Frame HeightRequest="460"
+               Style="{StaticResource CardView}">
+            <VerticalStackLayout Padding="20"
+                                 VerticalOptions="Center"
+                                 Spacing="15">
+                <Image Source="sofkaicon.png"
+                       BackgroundColor="Transparent"
+                       HeightRequest="100" />
+                <Entry Placeholder="Username"
+                       FontSize="18"
+                       Text="{Binding Username}" />
+                <Entry Placeholder="Password"
+                       FontSize="18"
+                       IsPassword="False"
+                       Text="{Binding Password}" />
+                <Button Text="LOGIN"
+                        FontSize="16"
+                        WidthRequest="150"
+                        Margin="0,10,0,0"
+                        Command="{Binding LoginCommand}"
+                        IsEnabled="{Binding IsNotBusy}" />
+                <Button Text="REGISTER"
+                        FontSize="16"
+                        WidthRequest="150"
+                        Margin="0,0,0,0"
+                        Style="{StaticResource ButtonOutline}"
+                        Command="{Binding CreateUserCommand}"
+                        IsEnabled="{Binding IsNotBusy}" />
+            </VerticalStackLayout>
+        </Frame>
         
         <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"
                            HorizontalOptions="FillAndExpand"
+                           Color="{StaticResource Primary}"
                            VerticalOptions="CenterAndExpand" />
     </Grid>
 </ContentPage>
