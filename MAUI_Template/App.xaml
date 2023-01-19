@@ -64,6 +64,32 @@
                 <Setter Property="RefreshColor"
                         Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource Gray200}}" />
             </Style>
+            <Style x:Key="ButtonSecundary"
+                   TargetType="Button">
+                <Setter Property="Background"
+                        Value="{StaticResource SecondaryDark}" />
+                <Setter Property="BorderColor"
+                        Value="{StaticResource SecondaryDark}" />
+                <Setter Property="BorderWidth"
+                        Value="2" />
+                <Setter Property="HeightRequest"
+                        Value="40" />
+                <Setter Property="CornerRadius"
+                        Value="8" />
+            </Style>
+            <Style x:Key="ButtonTertiary"
+                   TargetType="Button">
+                <Setter Property="Background"
+                        Value="{StaticResource TertiaryDark}" />
+                <Setter Property="BorderColor"
+                        Value="{StaticResource TertiaryDark}" />
+                <Setter Property="BorderWidth"
+                        Value="2" />
+                <Setter Property="HeightRequest"
+                        Value="40" />
+                <Setter Property="CornerRadius"
+                        Value="8" />
+            </Style>
             <Style x:Key="ButtonOutline"
                    TargetType="Button">
                 <Setter Property="Background"
@@ -94,8 +120,11 @@
                 <Setter Property="IsClippedToBounds"
                         Value="True" />
             </Style>
-            
-            <!-- De Styles -->
+            <!-- Native Elements -->
+            <Style TargetType="Image">
+                <Setter Property="BackgroundColor"
+                        Value="Transparent" />
+            </Style>
             <Style TargetType="ActivityIndicator">
                 <Setter Property="Color"
                         Value="{AppThemeBinding Light={StaticResource Primary}, Dark={StaticResource White}}" />

@@ -13,7 +13,6 @@
                                  VerticalOptions="Center"
                                  Spacing="15">
                 <Image Source="sofkaicon.png"
-                       BackgroundColor="Transparent"
                        Style="{StaticResource CardView}"
                        HeightRequest="100" />
                 <Entry Placeholder="Username"
@@ -33,9 +32,16 @@
                         FontSize="16"
                         WidthRequest="150"
                         Margin="0,0,0,0"
-                        Style="{StaticResource ButtonOutline}"
+                        Style="{StaticResource ButtonTertiary}"
                         Command="{Binding CreateUserCommand}"
                         IsEnabled="{Binding IsNotBusy}" />
+                <!--<Button Text="REGISTER"
+                        FontSize="16"
+                        WidthRequest="150"
+                        Margin="0,0,0,0"
+                        Style="{StaticResource ButtonTertiary}"
+                        Command="{Binding CreateUserCommand}"
+                        IsEnabled="{Binding IsNotBusy}" />-->
             </VerticalStackLayout>
         </Frame>
         
