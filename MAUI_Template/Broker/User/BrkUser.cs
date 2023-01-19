@@ -32,9 +32,7 @@ public class BrkUser : IBrkUser
         int result = await _sqliteRepository.Save(objMdlUser);
 
         if (result == 0)
-        {
             return responses[303]!.ToString()!;
-        }
 
         return responses[201]!.ToString()!;
     }

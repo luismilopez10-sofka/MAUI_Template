@@ -11,8 +11,7 @@
                Style="{StaticResource CardView}">
             <VerticalStackLayout Padding="40,0"
                                  VerticalOptions="Center"
-                                 Spacing="15"
-                                 BackgroundColor="Blue">
+                                 Spacing="15">
                 <Image Source="sofkaicon.png"
                        BackgroundColor="Transparent"
                        Style="{StaticResource CardView}"
