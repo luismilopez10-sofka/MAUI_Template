@@ -963,3 +963,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\sofkaicon.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_blue.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_gray.png

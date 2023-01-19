@@ -79,16 +79,33 @@ public partial class LoginViewModel : BaseViewModel
     [RelayCommand]
     private async Task CreateUserAsync()
     {
+        if (IsBusy)
+            return;
+
         if (string.IsNullOrEmpty(Username) || string.IsNullOrEmpty(Password))
         {
-            await Shell.Current.DisplayAlert("Empty Fields", "Please fill all the fields.", "OK");
+            await Shell.Current.DisplayAlert("Empty Fields", "Please enter all the fields.", "OK");
             return;
         }
 
-        MdlUser objMdlUser = new(Username, Password);
+        try
+        {
+            IsBusy = true;
 
-        string creatingResult = await _brkUser.CreateUser(objMdlUser);
-        await Shell.Current.DisplayAlert("Info", creatingResult, "OK");
+            MdlUser objMdlUser = new(Username, Password);
+
+            string creatingResult = await _brkUser.CreateUser(objMdlUser);
+            await Shell.Current.DisplayAlert("Info", creatingResult, "OK");
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine(ex);
+            await Shell.Current.DisplayAlert("Error!", $"Unable to create: {ex.Message}", "OK");
+        }
+        finally
+        {
+            IsBusy = false;
+        }
     }
     #endregion
 }

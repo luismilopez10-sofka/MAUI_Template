@@ -7895,6 +7895,15 @@ namespace MAUI_Template
 			// aapt resource value: 0x7F07009D
 			public const int tooltip_frame_light = 2131165341;
 			
+			// aapt resource value: 0x7F07009E
+			public const int user = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int user_blue = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int user_gray = 2131165344;
+			
 			static Drawable()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

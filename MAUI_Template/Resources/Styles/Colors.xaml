@@ -9,10 +9,13 @@
     <Color x:Key="DarkBackground">#BB1B1B1B</Color>
     <Color x:Key="Primary">#F17D18</Color>
     <Color x:Key="PrimaryDark">#C95113</Color>
-    <Color x:Key="Secondary">#FEB727</Color>
-    <Color x:Key="SecondaryDark">#E09600</Color>
+    <Color x:Key="PrimaryDisabled">#F2BF91</Color>
+    <Color x:Key="Secondary">#FFB319</Color>
+    <Color x:Key="SecondaryDark">#CC8800</Color>
+    <Color x:Key="SecondaryDisabled">#FFDD99</Color>
     <Color x:Key="Tertiary">#014AA6</Color>
     <Color x:Key="TertiaryDark">#1A2187</Color>
+    <Color x:Key="TertiaryDisabled">#6381A6</Color>
     <Color x:Key="White">White</Color>
     <Color x:Key="Black">Black</Color>
     <Color x:Key="Gray100">#E1E1E1</Color>
@@ -25,10 +28,13 @@
     <Color x:Key="Gray950">#141414</Color>
     <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource Primary}" />
     <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDark}" />
+    <SolidColorBrush x:Key="PrimaryDisabledBrush" Color="{StaticResource PrimaryDisabled}" />
     <SolidColorBrush x:Key="SecondaryBrush" Color="{StaticResource Secondary}" />
     <SolidColorBrush x:Key="SecondaryDarkBrush" Color="{StaticResource SecondaryDark}" />
+    <SolidColorBrush x:Key="SecondaryDisabledBrush" Color="{StaticResource SecondaryDisabled}" />
     <SolidColorBrush x:Key="TertiaryBrush" Color="{StaticResource Tertiary}" />
     <SolidColorBrush x:Key="TertiaryDarkBrush" Color="{StaticResource TertiaryDark}" />
+    <SolidColorBrush x:Key="TertiaryDisabledBrush" Color="{StaticResource TertiaryDisabled}" />
     <SolidColorBrush x:Key="WhiteBrush" Color="{StaticResource White}"/>
     <SolidColorBrush x:Key="BlackBrush" Color="{StaticResource Black}"/>
     <SolidColorBrush x:Key="Gray100Brush" Color="{StaticResource Gray100}"/>
