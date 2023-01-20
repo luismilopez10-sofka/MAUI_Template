@@ -1,2 +1,2 @@
 ﻿# SQLite
-Aquí se encuentra la clase y su debida interfaz para la conexión a la base de datos local del dispositivo.
+En esta carpeta se encuentra la clase e interfaz para la conexión a la base de datos local del dispositivo haciendo uso de SQLite.

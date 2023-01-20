@@ -1,2 +1,2 @@
 ﻿# Services
-En esta carpeta deben ir las clases que se consumirán los servicios web.
+Esta carpeta debe contener las clases con la lógica de consumo de los servicios web.
