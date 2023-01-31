@@ -13,6 +13,7 @@ public class MdlUser
 
     public MdlUser()
     {
+        Logged = false;
     }
 
     public MdlUser(string username, string password)

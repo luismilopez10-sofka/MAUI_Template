@@ -5,9 +5,10 @@
              xmlns:viewmodel="clr-namespace:MAUI_Template.ViewModel"
              x:DataType="viewmodel:LoginViewModel"
              Title="{Binding Title}">
-    <Grid Padding="30,0"
-          BackgroundColor="{StaticResource DarkBackground}">
+    <Grid BackgroundColor="{StaticResource DarkBackground}">
         <Frame HeightRequest="460"
+               Margin="30,0"
+               HasShadow="False"
                Style="{StaticResource CardView}">
             <VerticalStackLayout Padding="30,0"
                                  VerticalOptions="Center"
@@ -21,6 +22,7 @@
                     <Entry Placeholder="Username"
                            VerticalOptions="Center"
                            FontSize="18"
+                           IsEnabled="{Binding IsNotBusy}"
                            Text="{Binding Username}" />
                 </Frame>
                 <Frame HeightRequest="45"
@@ -28,7 +30,8 @@
                     <Entry Placeholder="Password"
                            VerticalOptions="Center"
                            FontSize="18"
-                           IsPassword="False"
+                           IsPassword="True"
+                           IsEnabled="{Binding IsNotBusy}"
                            Text="{Binding Password}" />
                 </Frame>
                 <Button Text="LOGIN"
@@ -47,10 +50,9 @@
         
         <ActivityIndicator IsVisible="{Binding IsBusy}"
                            IsRunning="{Binding IsBusy}"
-                           Grid.RowSpan="2"
-                           Grid.ColumnSpan="2"
-                           HorizontalOptions="FillAndExpand"
-                           Color="{StaticResource Primary}"
+                           Color="{StaticResource Gray300}"
+                           BackgroundColor="Transparent"
+                           HorizontalOptions="CenterAndExpand"
                            VerticalOptions="CenterAndExpand" />
     </Grid>
 </ContentPage>

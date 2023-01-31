@@ -166,7 +166,7 @@
             
             
             
-            <!-- Native Elements -->
+            <!-- Native Elements Styling -->
             <Style TargetType="Image">
                 <Setter Property="BackgroundColor"
                         Value="Transparent" />

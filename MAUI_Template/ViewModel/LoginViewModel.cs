@@ -59,10 +59,11 @@ public partial class LoginViewModel : BaseViewModel
             objMdlUser.Logged = true;
             await _sqliteRepository.Update(objMdlUser);
 
-            Debug.WriteLine("Logged");
-            await Shell.Current.DisplayAlert("Success!", $"{loginResult}", "OK");
+            await Task.Delay(3000);
+            //Debug.WriteLine("Logged");
+            //await Shell.Current.DisplayAlert("Success!", $"{loginResult}", "OK");
 
-            await Shell.Current.GoToAsync(nameof(HomePage));
+            //await Shell.Current.GoToAsync(nameof(HomePage));
         }
         catch (Exception ex)
         {
