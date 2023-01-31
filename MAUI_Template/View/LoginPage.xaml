@@ -1,58 +1,60 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+<ContentPage xmlns:viewmodel="clr-namespace:MAUI_Template.ViewModel"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="{Binding Title}"
+             xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              x:Class="MAUI_Template.View.LoginPage"
-             xmlns:viewmodel="clr-namespace:MAUI_Template.ViewModel"
-             x:DataType="viewmodel:LoginViewModel"
-             Title="{Binding Title}">
+             x:DataType="viewmodel:LoginViewModel">
     <Grid BackgroundColor="{StaticResource DarkBackground}">
-        <Frame HeightRequest="460"
+        <Frame HasShadow="False"
+               HeightRequest="460"
                Margin="30,0"
-               HasShadow="False"
                Style="{StaticResource CardView}">
             <VerticalStackLayout Padding="30,0"
-                                 VerticalOptions="Center"
-                                 Spacing="10">
-                <Image Source="user_gray.png"
-                       Style="{StaticResource CardView}"
+                                 Spacing="10"
+                                 VerticalOptions="Center">
+                <Image HeightRequest="100"
                        Margin="0,0,0,20"
-                       HeightRequest="100" />
+                       Source="user_gray.png"
+                       Style="{StaticResource CardView}" />
                 <Frame HeightRequest="45"
                        Padding="10,0">
-                    <Entry Placeholder="Username"
-                           VerticalOptions="Center"
-                           FontSize="18"
+                    <Entry FontSize="18"
                            IsEnabled="{Binding IsNotBusy}"
-                           Text="{Binding Username}" />
+                           Placeholder="Username"
+                           Text="{Binding Username}"
+                           VerticalOptions="Center" />
                 </Frame>
                 <Frame HeightRequest="45"
                        Padding="10,0">
-                    <Entry Placeholder="Password"
-                           VerticalOptions="Center"
-                           FontSize="18"
+                    <Entry FontSize="18"
+                           IsEnabled="{Binding IsNotBusy}"
                            IsPassword="True"
-                           IsEnabled="{Binding IsNotBusy}"
-                           Text="{Binding Password}" />
+                           Placeholder="Password"
+                           Text="{Binding Password}"
+                           VerticalOptions="Center" />
                 </Frame>
-                <Button Text="LOGIN"
+                <Button Command="{Binding LoginCommand}"
                         FontSize="16"
+                        IsEnabled="{Binding IsNotBusy}"
                         Margin="0,20,0,0"
-                        Command="{Binding LoginCommand}"
-                        IsEnabled="{Binding IsNotBusy}" />
-                <Button Text="REGISTER"
+                        Text="LOGIN" />
+                <Button Command="{Binding CreateUserCommand}"
                         FontSize="16"
+                        IsEnabled="{Binding IsNotBusy}"
                         Margin="0,0,0,0"
                         Style="{StaticResource ButtonTertiary}"
-                        Command="{Binding CreateUserCommand}"
-                        IsEnabled="{Binding IsNotBusy}" />
+                        Text="REGISTER" />
             </VerticalStackLayout>
         </Frame>
-        
-        <ActivityIndicator IsVisible="{Binding IsBusy}"
-                           IsRunning="{Binding IsBusy}"
+        <ActivityIndicator BackgroundColor="Transparent"
                            Color="{StaticResource Gray300}"
-                           BackgroundColor="Transparent"
                            HorizontalOptions="CenterAndExpand"
+                           IsRunning="{Binding IsBusy}"
+                           IsVisible="{Binding IsBusy}"
                            VerticalOptions="CenterAndExpand" />
     </Grid>
 </ContentPage>
+    
+    
+    
