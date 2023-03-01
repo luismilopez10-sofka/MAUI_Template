@@ -29,6 +29,9 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\sofkaicon.png
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\dotnet_bot.png
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\sofkaicon.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_blue.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_gray.png
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\mipmap-hdpi\appicon.png
@@ -152,6 +155,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\Mono.Android.Export.pdb
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\Mono.Android.pdb
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\netstandard.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\SQLite-net.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.batteries_v2.dll
@@ -162,6 +166,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\SQLitePCLRaw.provider.sqlite3.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.AppContext.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Buffers.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Collections.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Collections.Immutable.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Collections.NonGeneric.dll
@@ -177,6 +182,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Core.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Data.Common.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Data.DataSetExtensions.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Data.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Contracts.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Debug.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.DiagnosticSource.dll
@@ -187,6 +193,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tools.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.TraceSource.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Diagnostics.Tracing.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Drawing.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Drawing.Primitives.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Dynamic.Runtime.dll
@@ -220,6 +227,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.HttpListener.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.Mail.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.NameResolution.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.Ping.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.Primitives.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.Quic.dll
@@ -235,7 +243,9 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Numerics.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.ObjectModel.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.DataContractSerialization.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.Xml.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.Xml.Linq.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Reflection.DispatchProxy.dll
@@ -302,6 +312,7 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Web.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Web.HttpUtility.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Windows.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Xml.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Xml.Linq.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Xml.ReaderWriter.dll
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Xml.Serialization.dll
@@ -955,15 +966,4 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_GenerateJavaStubs.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\sofkaicon.png
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user.png
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_blue.png
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable\user_gray.png
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\mscorlib.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Data.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Net.NetworkInformation.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.CoreLib.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Private.Uri.dll
-C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\android\assets\System.Xml.dll
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\f\MaterialIcons-Regular.ttf

@@ -22,7 +22,7 @@ public partial class LoginViewModel : BaseViewModel
     #region CONSTRUCTORS
     public LoginViewModel(LoginService loginService)
     {
-        Title = "Login";
+        Title = "Login"; // Esta propiedad viene del BaseViewModel
         _sqliteRepository = new SQLiteRepository();
         _brkUser = new BrkUser();
         _loginService = loginService;
@@ -59,11 +59,11 @@ public partial class LoginViewModel : BaseViewModel
             objMdlUser.Logged = true;
             await _sqliteRepository.Update(objMdlUser);
 
-            await Task.Delay(3000);
-            //Debug.WriteLine("Logged");
+            //await Task.Delay(3000);
+            Debug.WriteLine("Logged");
             //await Shell.Current.DisplayAlert("Success!", $"{loginResult}", "OK");
 
-            //await Shell.Current.GoToAsync(nameof(HomePage));
+            await Shell.Current.GoToAsync(nameof(HomePage));
         }
         catch (Exception ex)
         {

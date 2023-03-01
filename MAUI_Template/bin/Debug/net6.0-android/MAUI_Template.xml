@@ -150,6 +150,15 @@
         <member name="P:MAUI_Template.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:MAUI_Template.ViewModel.BaseViewModel.title"/>
         </member>
+        <member name="P:MAUI_Template.ViewModel.HomeViewModel.Pages">
+            <inheritdoc cref="F:MAUI_Template.ViewModel.HomeViewModel.pages"/>
+        </member>
+        <member name="F:MAUI_Template.ViewModel.HomeViewModel.goToCommand">
+            <summary>The backing field for <see cref="P:MAUI_Template.ViewModel.HomeViewModel.GoToCommand"/>.</summary>
+        </member>
+        <member name="P:MAUI_Template.ViewModel.HomeViewModel.GoToCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:MAUI_Template.ViewModel.HomeViewModel.GoToAsync(System.String)"/>.</summary>
+        </member>
         <member name="P:MAUI_Template.ViewModel.LoginViewModel.Username">
             <inheritdoc cref="F:MAUI_Template.ViewModel.LoginViewModel.username"/>
         </member>

@@ -14,9 +14,10 @@ public static class MauiProgram
 			{
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+				fonts.AddFont("MaterialIcons-Regular.ttf", "IconFontTypes");
 			});
 
-        #region PAGES_REGISTRY
+        #region DEPENDENCY_INJECTION_REGISTRATION
         /*
          * En el registro se puede usar:
          * 'AddSingleton' : Para que cada que se instancie, siempre retorne la misma.
