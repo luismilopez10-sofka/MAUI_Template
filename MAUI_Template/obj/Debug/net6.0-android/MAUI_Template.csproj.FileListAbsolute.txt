@@ -967,3 +967,8 @@ C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\f\MaterialIcons-Regular.ttf
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\splash.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\splash.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xhdpi\splash.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xxhdpi\splash.png
+C:\Users\luis.lopez\development\0_maui_projects\MAUI_Template\MAUI_Template\obj\Debug\net6.0-android\resizetizer\r\drawable-xxxhdpi\splash.png

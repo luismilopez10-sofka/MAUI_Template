@@ -1,5 +1,4 @@
-﻿using MAUI_Template.Services;
-using MAUI_Template.View;
+﻿using MAUI_Template.View;
 
 namespace MAUI_Template;
 
@@ -24,18 +23,9 @@ public static class MauiProgram
          * 'AddTransient' : Se creará una diferente cada vez que se instancie (Ejemplo: Una página que muestra los detalles de un producto que viene de una página con una lista de productos, cada una de esas páginas será diferente para cada producto).
          */
 
-        // Login
-        builder.Services.AddTransient<LoginPage>();
-        builder.Services.AddTransient<LoginViewModel>();
-        builder.Services.AddSingleton<LoginService>();
-
-        // Home
-        builder.Services.AddSingleton<HomePage>();
-        builder.Services.AddSingleton<HomeViewModel>();
-
-        // Collection
-        builder.Services.AddSingleton<CollectionPage>();
-        builder.Services.AddSingleton<CollectionViewModel>();
+        // MainPage
+        builder.Services.AddTransient<MainPage>();
+        builder.Services.AddTransient<MainViewModel>();
         #endregion
 
         return builder.Build();

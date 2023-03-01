@@ -9,8 +9,6 @@ public partial class AppShell : Shell
 		InitializeComponent();
 
         #region ROUTES_REGISTRY
-        Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
-        Routing.RegisterRoute(nameof(CollectionPage), typeof(CollectionPage));
         #endregion
     }
 }
